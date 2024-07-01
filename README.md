@@ -56,13 +56,14 @@ zona; el sistema se hace escalable ya que modificando solo
 unas pocas definiciones en el programa se pueden implementar
 muchas "zonas" con poco esfuerzo de programacion.
 
+**API EN LENGUAJE C**
+La API que vincula los mensajes entre MQTT y MSQL pueden descargarse 
+del siguiente repositorio: 
+Links: github.com/ronarg100/TP_API_MQTT_SQL
 
 
-           gcc -o <ejecutable> <programa.c> $(mariadb_config --include --libs)
 
-   Para el caso particular de este trabajo practico se
-   compila R-api-2-sql.c
-
+         
 
 
 
